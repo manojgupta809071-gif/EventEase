@@ -1,8 +1,10 @@
 import axios from 'axios';
 
 const api = axios.create({
-  baseURL: '/api',
-  headers: { 'Content-Type': 'application/json' },
+    baseURL: 'https://eventease-3-4a8w.onrender.com/api',
+    headers: {
+        'Content-Type': 'application/json',
+    },
 });
 
 export default api;
